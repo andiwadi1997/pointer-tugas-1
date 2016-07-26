@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int wadi,*dhika,hana;
+wadi= 85;
+dhika=&hana;
+hana=wadi;
+cout<<"Nilai wadi adalah "<<wadi<<endl;
+cout<<"Nilai dhika adalah "<<dhika<<endl;
+cout<<"Nilai hana adalah "<<hana<<endl;
+return 0;
+}
